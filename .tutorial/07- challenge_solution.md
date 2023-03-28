@@ -1,27 +1,27 @@
 # Solution (No Peeking!)
 
-<details> <summary> 👀 Answer </summary>
+<details> <summary> 👀 Answer  </summary>
 
 ```python
-print("Welcome to Name the Song Lyric")
-print()
-print("Figure out the missing word as quickly as you can!")
-print()
 
-counter = 1
-while True:
-  lyrics = input("I don't wanna ______ a thing. ")
-  if lyrics == "miss" or lyrics == "Miss":
-    print("You got it!")
-  else:
-    print("Nope! Try again!")
-    counter +=1
-  if lyrics == "miss":
-    break
-print("Thanks for playing!")
+print("Secure Login")
+username = input("What is your username?")
+password = input("What is your password?")
 
-print("You got the correct lyrics in", counter, "attempt(s).")
+if username == "David" and password == "PyTh0nR*cks":
+  print("Welcome, David! You are looking nice today!")
+elif username == "Becky" and password == "Repl!t4evEr":
+  print("Hi Becky! Love your hair today!")
+elif username == "Bill" and password == "SmashTHEb*gs!":
+  print("Yo! Bill! What up?!")
+else:
+  print("You do not have access. Go away!")
+  
 ```
+
+
+
+
 
 
 </details>
