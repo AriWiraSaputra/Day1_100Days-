@@ -1,0 +1,38 @@
+#Take User Input
+#Days 2
+
+#This Is exercise--------------------------
+myName = input("What Your Name: ")
+MyAge = input("What Your Age: ")
+print("=---------------------------=")
+print("halloo mr " + myName +" "+ MyAge + " YerasOld")
+print("-----------------------------")
+myLunch = input("What are you having for lunch? ")
+print("Hmm, it sounds like you really should just order "+ myLunch)
+print("as soon as possible!")
+print("_______________________________")
+print("Definitely not a Phishing Scam")
+print("")
+myName1 = input("Your Name : ")
+print("Thanks for logging in")
+print(myName1)
+print("------------------------------------")
+cardNumber = input("What is your credit card number?")
+print("Thanks, I definitely wont put")
+print(cardNumber)
+print("into Amazon and order anything weird")
+print()
+print("Promise")
+print("_____________________________________")
+maidenName =input("What is your Mother's maiden name? ")
+print()
+print("That's cool, I just wanted to know that")
+print(maidenName)
+print("was your Mum's maiden name. Not because the bank requested it or anything, honest.")
+
+#Challenge --------------------------------------
+print("________________________________________")
+Name = input("What Is Your Name: ")
+Food = input("What Favorite Food: ")
+Living = input("Where Do You Life : ")
+print("You are"+Name+" "+" You're probably hungry for"+" " +Food+ "and You're definitely getting your groove on to synthwave and anything by our man rick astley"+" "+"living In the" +" "+Living+" EDGE OR REALITY"+" ")

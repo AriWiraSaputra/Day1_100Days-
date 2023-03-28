@@ -1,36 +1,24 @@
 # Solution (No Peeking!)
 
-<details> <summary> 👀 Answer </summary>
+<details> <summary> 👀 Answer  </summary>
 
 ```python
 
-exit = "no"
-
-
-while exit == "no":
-  animal_sound = input("What animal sound do you want to hear?")
-  
-  if animal_sound == "cow" or animal_sound == "Cow":
-    print("🐮 Moo")
-  elif animal_sound == "pig" or animal_sound == "Pig":
-    print ("🐷 Oink")
-  elif animal_sound == "sheep" or animal_sound == "Sheep":
-    print ("🐑 Baaa")
-  elif animal_sound == "duck" or animal_sound == "Duck":
-    print("🦆 Quack")
-  elif animal_sound == "dog" or animal_sound == "Dog":
-    print("🐶 Woof")
-  elif animal_sound == "cat" or animal_sound == "Cat":
-    print("🐱 Meow")
-  else: 
-    print("I don't know that animal sound. Try again.")
-
-
-  exit = input("Do you want to exit?: ")
+birthYear = int(input("What year were you born?"))
+if birthYear <= 1946:
+  print("You are a Traditionalist.")
+elif birthYear >= 1947 and birthYear <= 1964:
+  print("Hey, Baby Boomer! How you doing?")
+elif birthYear >= 1965 and birthYear <= 1981:
+  print("Gen X! What's up?")
+elif birthYear >= 1982 and birthYear <= 1995:
+  print("Millenials! The age of tech!")
+elif birthYear >= 1996:
+  print("Hey, Gen Z! TikTok much?")
+else: 
+  print("Try again!")
 
 ```
-
-
 
 
 </details>
