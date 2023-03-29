@@ -1,47 +1,27 @@
 # Solution (No Peeking!)
 
-<details> <summary> 👀 Answer </summary>
+<details> <summary> 👀 Answer  </summary>
+  
+``` python
 
-```python
-print("Welcome to Guess the Number.")
-print()
-print("Guess a number between 1 and 1,000,000 and I will tell you if you are too low, too high, or get it correct.")
-print()
-print("Let's play!")
+days_this_year = int(input("How many days are in this year?"))
 
-correct_number = 2300
-attempt = 1
-
-while True:
-  user_guess = int(input("Pick a number between 1 and 1,000,000: "))
-  if user_guess < 0:
-    print("Now we'll never know what the answer is …")
-    exit()
-  if user_guess < correct_number:
-    print("That number is too low. Try again!")
-    attempt += 1
-  elif user_guess > correct_number:
-    print("That number is too high. Try again!")
-    attempt += 1
-    continue
-  elif user_guess == correct_number:
-    print("You are a winner! 🥳🥳")
-    break 
-  else:
-    print("That is not a number I recognize.")
-print("It took you", attempt, "attempt(s) to get the correct answer.")
-
-```
+days_in_year = 365
+days_in_leapyear = 366
+hours_in_day = 24
+minutes_in_hour = 60
+seconds_in_minute = 60
 
 
+result = days_in_year * hours_in_day * minutes_in_hour * seconds_in_minute
+
+leapyear_result = days_in_leapyear * hours_in_day * minutes_in_hour * seconds_in_minute
 
 
+if days_this_year == 366:
+  print("Number of seconds in a leap year are", leapyear_result)
+else:
+  print("Number of seconds in a year are", result)
 
-
-
-
-
-
-
-
-</details>
+  ```
+  </details>
