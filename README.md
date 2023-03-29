@@ -61,7 +61,16 @@ Here, I will update my progress regularly to keep track of my improvement.
     14. Days 14    Rock, Paper, Scissors    25.03.23        Today, you are going to build a rock, paper, scissors game.
                                                             Start with this code below to ensure that whenever you use 
                                                             input, each player cannot see what the other player typed in
-    
+    15. Days 15    All About the Loop       26.03.23        A loop is a programming construct that allows a piece of code 
+                                                            to be executed repeatedly, either a fixed number of times or
+                                                            until a certain condition is met.   
+    16. Days 16    Make it Stop             27.03.23        Assuming you are writing code, "while true" is a programming 
+                                                            construct that creates an infinite loop. The code within the 
+                                                            loop will be executed repeatedly until a condition is met to 
+                                                            break out of the loop.
+    17. Days 17    Let's Cheat Continue     28.03.23        The continue command stops executing code in the loop and 
+                                                            starts at the top of the loop again. Essentially, we want to 
+                                                            kick the user back to the original question.
   
    
    ------------------------------------------------------------------------------------------------------
