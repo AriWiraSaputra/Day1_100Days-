@@ -71,7 +71,9 @@ Here, I will update my progress regularly to keep track of my improvement.
     17. Days 17    Let's Cheat Continue     28.03.23        The continue command stops executing code in the loop and 
                                                             starts at the top of the loop again. Essentially, we want to 
                                                             kick the user back to the original question.
-  
+    18. Days 18    Guess the Number         29.03.23        We are going to build a "Guess the Number" guessing game. You 
+                                                            are going to use a while loop and some of the concepts from 
+                                                            the past few days.
    
    ------------------------------------------------------------------------------------------------------
 
